@@ -39,7 +39,7 @@ function getComputerChoice(){
 }
 
 
-alert("Let's play best of 5")
+alert("First on get 5 points, Win.")
 
 rock.addEventListener("click", () => {
     if (playerCounter == 5 || computerCounter == 5) {verifyResult()} 
